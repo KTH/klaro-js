@@ -350,8 +350,8 @@ to create a white background.
   color: var(--button-text-color, #fff);
   background-color: #5c5c5c;
   background-color: var(--dark2, #5c5c5c);
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   padding: 6px 10px;
   margin-right: 0.5em;
   border-style: none;
@@ -395,8 +395,8 @@ to create a white background.
 }
 
 .klaro .context-notice {
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   border-style: solid;
   border-style: var(--border-style, solid);
   border-width: 1px;
@@ -501,8 +501,8 @@ to create a white background.
 
 @media (min-width: 660px) {
   .klaro .cookie-modal .cm-modal.cm-klaro {
-    border-radius: 4px;
-    border-radius: var(--border-radius, 4px);
+    border-radius: 20px;
+    border-radius: var(--border-radius, 20px);
     position: relative;
     margin: 0 auto;
     max-width: 640px;
@@ -692,8 +692,8 @@ to create a white background.
 
 @media (min-width: 1024px) {
   .klaro .cookie-notice:not(.cookie-modal-notice) {
-    border-radius: 4px;
-    border-radius: var(--border-radius, 4px);
+    border-radius: 20px;
+    border-radius: var(--border-radius, 20px);
     position: fixed;
     position: var(--notice-position, fixed);
     right: 20px;
@@ -807,8 +807,8 @@ to create a white background.
 
 @media (min-width: 400px) {
   .klaro .cookie-modal-notice {
-    border-radius: 4px;
-    border-radius: var(--border-radius, 4px);
+    border-radius: 20px;
+    border-radius: var(--border-radius, 20px);
     position: relative;
     margin: 0 auto;
     max-width: 400px;
@@ -1090,8 +1090,8 @@ to create a white background.
 .klaro-ide .cm-language-select,
 .klaro-ide .cm-theme-select,
 .klaro-ide .cm-purpose-select {
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   background-color: #fff;
   background-color: var(--white1, #fff);
   border-style: solid;
@@ -1128,8 +1128,8 @@ to create a white background.
 .klaro-ide .cm-purpose-select ul.cm-purposes li {
   color: #fafafa;
   color: var(--light1, #fafafa);
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   border-width: 1px;
   border-width: var(--border-width, 1px);
   border-style: solid;
@@ -1175,8 +1175,8 @@ to create a white background.
 .klaro-ide .cm-search-select .cm-candidates {
   background-color: #fff;
   background-color: var(--white1, #fff);
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   border-width: 1px;
   border-width: var(--border-width, 1px);
   border-style: solid;
@@ -1300,8 +1300,8 @@ to create a white background.
   color: var(--dark1, #333);
   border-color: #5c5c5c;
   border-color: var(--dark2, #5c5c5c);
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   border-style: solid;
   border-style: var(--border-style, solid);
   border-width: 1px;
@@ -1315,8 +1315,8 @@ to create a white background.
 .klaro-ide .cm-obj-selector ul li.cm-obj-add a.cm-btn {
   color: #fff;
   color: var(--white1, #fff);
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   background-color: #7c7c7c;
   background-color: var(--dark3, #7c7c7c);
   padding: 8px;
@@ -1361,8 +1361,8 @@ to create a white background.
   background-color: var(--white1, #fff);
   color: #5c5c5c;
   color: var(--dark2, #5c5c5c);
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   border-style: solid;
   border-style: var(--border-style, solid);
   border-color: #f2f2f2;
@@ -1397,8 +1397,8 @@ to create a white background.
 .klaro-ide .cm-retracting-label-input > .cm-label {
   background-color: #fff;
   background-color: var(--white1, #fff);
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   border-style: solid;
   border-style: var(--border-style, solid);
   border-width: 1px;
@@ -1420,8 +1420,8 @@ to create a white background.
 }
 
 .klaro-ide .cm-input {
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   background-color: #fafafa;
   background-color: var(--light1, #fafafa);
   border-style: solid;
@@ -1463,10 +1463,10 @@ to create a white background.
 
 @media (max-width: 768px) {
   .klaro-ide .cm-tabs {
-    border-radius: 4px;
-    border-radius: var(--border-radius, 4px);
-    border-radius: 4px;
-    border-radius: var(--border-radius, 4px);
+    border-radius: 20px;
+    border-radius: var(--border-radius, 20px);
+    border-radius: 20px;
+    border-radius: var(--border-radius, 20px);
     background-color: #fff;
     background-color: var(--white1, #fff);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.33);
@@ -1627,8 +1627,8 @@ to create a white background.
 .klaro-ide .cm-list .cm-item.cm-is-card {
   background-color: #fff;
   background-color: var(--white1, #fff);
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.33);
   margin-bottom: 24px;
 }
@@ -1723,8 +1723,8 @@ to create a white background.
 }
 
 .klaro-ide .cm-dropdown > .cm-dropdowncontent.cm-dropdownexpanded {
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   display: block;
   position: absolute;
   top: 35px;
@@ -1733,8 +1733,8 @@ to create a white background.
 }
 
 .klaro-ide .cm-dropdown > .cm-dropdowncontent ul.cm-dropdownmenu {
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   border-style: solid;
   border-style: var(--border-style, solid);
   border-width: 1px;
@@ -1812,8 +1812,8 @@ to create a white background.
 }
 
 .klaro-ide .cm-message.cm-error, .klaro-ide .cm-message.cm-success {
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   color: #fff;
   color: var(--white1, #fff);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
@@ -1928,8 +1928,8 @@ to create a white background.
 }
 
 .klaro-ide .cm-purpose-order ul li span.cm-buttons {
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   flex-grow: 0;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
 }
@@ -1950,8 +1950,8 @@ to create a white background.
 }
 
 .klaro-ide .cm-translations-fields .cm-translations-for-key {
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   background-color: #fff;
   background-color: var(--white1, #fff);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
@@ -2067,12 +2067,12 @@ to create a white background.
 .klaro-ide .cm-config-controls .cm-control select {
   border-color: #1a936f;
   border-color: var(--green1, #1a936f);
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   border-style: solid;
   border-style: var(--border-style, solid);
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   background-color: #fff;
   background-color: var(--white1, #fff);
   padding: 12px;
@@ -2081,8 +2081,8 @@ to create a white background.
 }
 
 .klaro-ide .cm-config-controls .cm-control-button {
-  border-radius: 4px;
-  border-radius: var(--border-radius, 4px);
+  border-radius: 20px;
+  border-radius: var(--border-radius, 20px);
   background-color: #459cdc;
   background-color: var(--blue2, #459cdc);
   color: #fff;
@@ -2137,8 +2137,8 @@ to create a white background.
 
 @media (min-width: 1020px) {
   .klaro-ide .cookie-modal .cm-modal.cm-ide {
-    border-radius: 4px;
-    border-radius: var(--border-radius, 4px);
+    border-radius: 20px;
+    border-radius: var(--border-radius, 20px);
     position: relative;
     margin: 0 auto;
     max-width: 1000px;
